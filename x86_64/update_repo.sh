@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm alg_repo_testing*
+rm alg-repo-testing*
 
 echo "repo-add"
-repo-add -n -R alg_repo_testing.db.tar.gz *.pkg.tar.zst
+repo-add -n -R alg-repo-testing.db.tar.gz *.pkg.tar.zst
 sleep 5
 
 
